@@ -13,6 +13,11 @@ Widget::Widget(QWidget *parent)
     QMenu *meun = new QMenu(this);
     meun->addAction("放大");
     ui->pushButton_3->setMenu(meun);
+
+    //设置隐藏
+    //ui->groupBox->setHidden(true);
+
+    ui->pushButton->setVisible(false);
 }
 
 Widget::~Widget()
